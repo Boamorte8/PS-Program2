@@ -51,17 +51,29 @@ public class NodoTest {
 
 	@Test
 	public void testSetDato2() {
-		fail("Not yet implemented");
+		float valor2 = (float) 9.8;
+		Nodo nodoTest = new Nodo();
+		nodoTest.setDato2(valor2);
+		float dato2 = nodoTest.getDato2();
+		assertEquals("El dato obtenido es correcto ", 9.8, dato2, 0.1);
 	}
 
 	@Test
 	public void testGetSiguiente() {
-		fail("Not yet implemented");
+		Nodo nodoSiguienteTest = new Nodo();
+		Nodo nodoTest = new Nodo();
+		nodoTest.setSiguiente(nodoSiguienteTest);
+		Nodo respuesta = nodoTest.getSiguiente();
+		assertNotNull(respuesta);
 	}
 
 	@Test
 	public void testSetSiguiente() {
-		fail("Not yet implemented");
+		Nodo nodoSiguienteTest = new Nodo();
+		Nodo nodoTest = new Nodo();
+		nodoTest.setSiguiente(nodoSiguienteTest);
+		Nodo respuesta = nodoTest.getSiguiente();
+		assertNotNull(respuesta);
 	}
 
 }

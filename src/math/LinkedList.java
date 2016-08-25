@@ -12,15 +12,21 @@ public class LinkedList {
 	public Nodo getCabeza() {
 		return cabeza;
 	}
+	
 	public void setCabeza(Nodo cabeza) {
 		this.cabeza = cabeza;
 	}
+	
 	public int getListsize() {
 		return listsize;
 	}
-	public void setListsize(int listsize) {
-		this.listsize = listsize;
+	
+	public void incrementListsize() {
+		this.listsize++;
 	}
 	
+	public void decrementListsize() {
+		this.listsize--;
+	}
 	
 }
