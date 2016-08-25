@@ -12,9 +12,9 @@ public class Nodo {
 		siguiente = null;
 	}
 	
-	public Nodo(float info1, float info2){
-		dato1 = info1;
-		dato2 = info2;
+	public Nodo(float dato1, float dato2){
+		this.dato1 = dato1;
+		this.dato2 = dato2;
 		siguiente = null;
 	}
 	
