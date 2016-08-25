@@ -7,8 +7,8 @@ public class Nodo {
 	
 	@SuppressWarnings("null")
 	public Nodo(){
-		dato1 = (Float) null;
-		dato2 = (Float) null;
+//		dato1 = (Float) null;
+//		dato2 = (Float) null;
 		siguiente = null;
 	}
 	
